@@ -4,7 +4,7 @@ title: Introduction
 ---
 
 
-I want to keep this introduction brief.This purpose of these posts are to track
+I want to keep this introduction brief. The purpose of these posts are to track
 my progress in becoming a developer and will try to not stray off into bigger topics.
 
 I'm not an absolute beginner. I have been coding for about a year but much more
