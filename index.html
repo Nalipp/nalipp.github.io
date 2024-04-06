@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Resume job application sentement analysis</title>
+</head>
+<body>
+  <div id="content">
+    <h1>Sentiment Analysis:</h1>
+    <div id="result"></div>
+  </div>
+
+  <script type="module">
+      import { HfInference } from 'https://cdn.jsdelivr.net/npm/@huggingface/inference@2.6.6/+esm';
+      import { createRepo, commit, deleteRepo, listFiles } from "https://cdn.jsdelivr.net/npm/@huggingface/hub@0.14.7/+esm";
+  </script>
+
+
+  <script>
+    console.log('...loaded...')
+    console.log('HfInference...', HfInference) 
+    console.log('listFiles...', listFiles) 
+    /* const classifier = pipeline("sentiment-analysis");
+    const resultDiv = document.getElementById("result");
+    classifier("I love using Hugging Face library!").then(results => {
+      resultDiv.innerHTML = results[0].label;
+    }); */
+  </script>
+</body>
+</html>
+
